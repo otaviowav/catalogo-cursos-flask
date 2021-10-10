@@ -5,7 +5,7 @@ from admin.decorators import login_required
 
 admin_bp = Blueprint(
     'admin',
-    __name__,
+    __name__, 
     template_folder='templates'
 )
 
